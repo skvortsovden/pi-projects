@@ -1,0 +1,5 @@
+gpiozero==1.6.2
+SpeechRecognition==3.8.1
+gTTS==2.2.3
+PyAudio==0.2.11
+pydub==0.25.1
