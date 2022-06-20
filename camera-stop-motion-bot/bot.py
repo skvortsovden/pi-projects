@@ -82,9 +82,7 @@ def stop_recording(update, context):
     update.message.reply_text(f"{emoji['done']} Checkout this GIF!", reply_markup=reply_markup)
 
 def message_handler(update, context):
-    # query = update.callback_query 
-    # query.answer()
-    print("Message")
+    """Handle user messages and manage recording"""
     if update.message.text == 'START RECORDING':
         start_recording(update, context)
     elif update.message.text == 'STOP RECORDING':
